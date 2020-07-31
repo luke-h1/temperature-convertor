@@ -1,36 +1,53 @@
-* { 
-    padding: 0 ; 
-    margin: 0 ; 
+/* ====================
+        CSS RESET 
+   ====================
+*/
+* {
+    padding: 0;
+    margin: 0;
 }
 
-
-
-a { 
-    color: #000 ; 
+/* ====================
+        LINKS  
+   ====================
+*/
+a {
+    color: #000;
 }
 
-a:hover { 
-    color: red; 
-    }
+a:hover {
+    color: red;
+}
 
-.jumbotron { 
+.jumbotron {
+    text-align: center;
+}
+
+/* ====================
+        FORM STYLING   
+   ====================
+*/
+
+.fix { 
     text-align: center;
 }
 
 
-.form-group { 
-    text-align: center;
-    justify-content: center;
-    width: 50% ; 
+.wrapper { 
     display: flex ; 
-    flex-direction: column; 
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 10rem ; 
 }
 
-.cel-to-fah {  
-    margin-top: 50px ; 
-    text-align: center;
-    justify-content: center;
-    width: 50% ; 
+.container { 
     display: flex ; 
-    flex-direction: column; 
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn { 
+    margin-top: 1em ; 
 }
