@@ -1,0 +1,29 @@
+* { 
+    padding: 0 ; 
+    margin: 0 ; 
+}
+
+
+
+.color { 
+    color: red ; 
+}
+
+.wrapper { 
+    display: flex ; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 3em ; 
+}
+
+.rounded { 
+    width: 30% ; 
+}
+
+.container { 
+    margin-top: 3em ; 
+}
+
+#output { 
+    font-size: 3em ; 
+}
