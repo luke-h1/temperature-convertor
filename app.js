@@ -1,10 +1,8 @@
-let output1 = document.querySelector('output1')
+let output1 = document.querySelector('output1');
 
-
-
-// buttons 
+// buttons
 const button = document.getElementById('btn-lg');
-const button2 = document.getElementById('cel-to-fah-btn')
+const button2 = document.getElementById('cel-to-fah-btn');
 
 // first button event listener
 button.addEventListener('click', function (e) {
@@ -18,16 +16,14 @@ button2.addEventListener('click', function (e) {
     convertToFahrenheit();
 });
 
-
-// convert functions... 
+// convert functions...
 
 function convertToCelcius() {
     let fah = document.querySelector('.fah1').value;
     if (fah != '') {
         let number = parseFloat(fah);
-        document.querySelector('.output1').value =
-            (number - 32) / 1.8 + '\xB0C';              
-        console.log(document.querySelector('.output1').value);
+        document.querySelector('.output1').innerHTML =
+            (number - 32) / 1.8 + '\xB0C';
     } else {
         alert('enter a value 🎲');
     }
@@ -37,8 +33,8 @@ function convertToFahrenheit() {
     let celcius2 = document.querySelector('.celcius2').value;
     if (celcius2 != '') {
         let number = parseFloat(celcius2);
-        document.querySelector('.output2').value = (number * 9) / 5 + 32 + '\xB0F';
-        console.log(document.querySelector('.output2').value);
+        document.querySelector('.output2').innerHTML =
+            (number * 9) / 5 + 32 + '\xB0F';
     } else {
         alert('enter a value 🎲');
     }
