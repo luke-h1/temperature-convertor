@@ -2,11 +2,37 @@
 <html> 
     <head> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <title>Temp convertor</title>
         </head> 
         <body>
+            <div class="jumbotron">
+                <h1 class="display-4">Temperature convertor</h1>
+                <p class="lead">Simple App made with vanilla JS, bootstrap & HTML to convert temperature (doesn't include kelvin). 🌟 ⚡️ 🚀</p>
+                <hr class="my-4">
+                <a href="https://github.com/luke-h1"><i class="fa fa-github fa-3x"></i></a>
+              </div>
 
+
+              <form class="fah-to-celcius">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Fahrenheit to Celcius...</label>
+                  <input type="number" class="form-control fah1" id="" aria-describedby="" placeholder="Fahrenheit value here">
+                </div>
+                <button id="btn-lg" type="submit" class="btn btn-primary">Submit</button>
+                <p class="output1"></p>
+              </form> 
+
+
+              <form class="cel-to-fah">
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Celcius to fahrenheit</label>
+                  <input type="number" class="form-control celcius2" id="formGroupExampleInput" placeholder="Example input"> 
+                  <button type="submit" class="btn btn-primary" id="cel-to-fah-btn">Submit</button>
+                    <p class="output2"></p>
+              </form>
+            
 
 
 

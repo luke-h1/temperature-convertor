@@ -5,25 +5,32 @@
 
 
 
-.color { 
-    color: red ; 
+a { 
+    color: #000 ; 
 }
 
-.wrapper { 
+a:hover { 
+    color: red; 
+    }
+
+.jumbotron { 
+    text-align: center;
+}
+
+
+.form-group { 
+    text-align: center;
+    justify-content: center;
+    width: 50% ; 
     display: flex ; 
     flex-direction: column; 
-    align-items: center; 
-    margin-top: 3em ; 
 }
 
-.rounded { 
-    width: 30% ; 
-}
-
-.container { 
-    margin-top: 3em ; 
-}
-
-#output { 
-    font-size: 3em ; 
+.cel-to-fah {  
+    margin-top: 50px ; 
+    text-align: center;
+    justify-content: center;
+    width: 50% ; 
+    display: flex ; 
+    flex-direction: column; 
 }
